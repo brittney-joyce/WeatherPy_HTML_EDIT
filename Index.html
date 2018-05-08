@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="style.css">
+
+  <!-- drop down menu -->
+  <title>WeatherPy - Data</title>
+</head>
+<body>
+  <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+          </button>
+          <a class="navbar-brand" href="index.html">WeatherPy</a>
+        </div>
+
+          <ul class="nav navbar-nav navbar-right">
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="temp.html">Max Temperature</a></li>
+                <li><a href="humid.html">Humidity</a></li>
+                <li><a href="cloudy.html">Cloudiness</a></li>
+                <li><a href="wind.html">Wind Speed</a></li>
+              </ul>
+            </li>
+            <li><a href="comparison.html">Comparison</a></li>
+            <li><a href="data.html">Data</a></li>
+
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    </ul>
+  </div>
+</div>
+
+
+</head>
+<body>
+
+<div class="container">
+  <div class="row row-grid">
+    <div class="col-md-8">
+    <div class="box box-left">
+  <section >
+      <img src="data:image/png;base64,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">
+  <section >
+    <h1>Summary: Latitude vs X </h1>
+  <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+  <p>After assembling the dataset, we used MatPlotLib to plot vatious aspects of the weather vs latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanatons and descriptions of any trends and correlations witnessed.</p>
+ </section>
+        
+  </section>
+    </div>
+    </div>
+
+
+	   <div class="col-md-4 sidebar">
+      <div class="box box-right">
+        <!--<div class="row">-->
+          <!--<div class="col-md-8">-->
+            <h1>Visualizations</h1>
+      
+       <div class="row">
+
+           <div class="col-xs-6 col-sm-3 col-md-6">
+	           <a href="temp.html">Max Temperature<img src="temp.png" width="200px" height="150px"></a>
+          </div>
+         
+          <!--<div class="col-md-3"></div>-->
+
+          <div class="col-xs-6 col-sm-3 col-md-6">
+	           <a href="humid.html">Humidity<img src="humid.png" width="200px" height="150px"></a>
+          </div>
+         
+          <!-- <div class="col-md-3"></div>-->
+       <!--</div>
+       <div class ="row">-->
+
+          <div class="col-xs-6 col-sm-3 col-md-6">
+            <a href="cloudy.html">Cloudiness<img src="cloudy.png" width="200px" height="150px"></a>
+          </div>
+           <!-- <div class="col-md-3"></div>-->
+
+          <div class="col-xs-6 col-sm-3 col-md-6">
+            <a href="wind.html">Wind Speed<img src="wind.png" width="200px" height="150px"></a>
+          </div>
+          
+        <!-- <div class="col-md-3"></div>-->
+        </div>
+     </div>
+   <!--<div class="col-md-1"></div>-->
+  </div>
+</div>
+</body>
+<html>
+
+</body>
+</html>
